@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="47309GasserMontaser.Puls" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="about_page.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/about_page.xbf">
+				<Candidate type="Path">
+					<Value>about_page.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Injuries.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/Injuries.xbf">
+				<Candidate type="Path">
+					<Value>Injuries.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Injury.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/Injury.xbf">
+				<Candidate type="Path">
+					<Value>Injury.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Pulse.WindowsPhone.xr.xml" uri="ms-resource://47309GasserMontaser.Puls/Files/Pulse.WindowsPhone.xr.xml">
+				<Candidate type="Path">
+					<Value>Pulse.WindowsPhone.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="StopWatch.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/StopWatch.xbf">
+				<Candidate type="Path">
+					<Value>StopWatch.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Timer.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/Timer.xbf">
+				<Candidate type="Path">
+					<Value>Timer.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Workout.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/Workout.xbf">
+				<Candidate type="Path">
+					<Value>Workout.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WorkoutPage.xbf" uri="ms-resource://47309GasserMontaser.Puls/Files/WorkoutPage.xbf">
+				<Candidate type="Path">
+					<Value>WorkoutPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="11.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/11.png">
+					<Candidate type="Path">
+						<Value>Assets\11.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="2min.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/2min.png">
+					<Candidate type="Path">
+						<Value>Assets\2min.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="3.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/3.png">
+					<Candidate type="Path">
+						<Value>Assets\3.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="300.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/300.png">
+					<Candidate type="Path">
+						<Value>Assets\300.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="300W.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/300W.png">
+					<Candidate type="Path">
+						<Value>Assets\300W.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="About background.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/About%20background.png">
+					<Candidate type="Path">
+						<Value>Assets\About background.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="alarm.mp3" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/alarm.mp3">
+					<Candidate type="Path">
+						<Value>Assets\alarm.mp3</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ankle.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/ankle.png">
+					<Candidate type="Path">
+						<Value>Assets\ankle.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="border.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/border.png">
+					<Candidate type="Path">
+						<Value>Assets\border.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="elbow.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/elbow.png">
+					<Candidate type="Path">
+						<Value>Assets\elbow.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ham.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/ham.png">
+					<Candidate type="Path">
+						<Value>Assets\ham.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="inj.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/inj.png">
+					<Candidate type="Path">
+						<Value>Assets\inj.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="injuries.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/injuries.png">
+					<Candidate type="Path">
+						<Value>Assets\injuries.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="injury.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/injury.png">
+					<Candidate type="Path">
+						<Value>Assets\injury.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="injuryB.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/injuryB.png">
+					<Candidate type="Path">
+						<Value>Assets\injuryB.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="knee.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/knee.png">
+					<Candidate type="Path">
+						<Value>Assets\knee.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="knee2.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/knee2.png">
+					<Candidate type="Path">
+						<Value>Assets\knee2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="lap.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/lap.png">
+					<Candidate type="Path">
+						<Value>Assets\lap.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="one.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/one.png">
+					<Candidate type="Path">
+						<Value>Assets\one.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="p.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/p.png">
+					<Candidate type="Path">
+						<Value>Assets\p.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pulse.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/pulse.png">
+					<Candidate type="Path">
+						<Value>Assets\pulse.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pulse2.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/pulse2.png">
+					<Candidate type="Path">
+						<Value>Assets\pulse2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="r.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/r.png">
+					<Candidate type="Path">
+						<Value>Assets\r.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="shin.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/shin.png">
+					<Candidate type="Path">
+						<Value>Assets\shin.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sp.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/sp.png">
+					<Candidate type="Path">
+						<Value>Assets\sp.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="spP.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/spP.png">
+					<Candidate type="Path">
+						<Value>Assets\spP.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="st.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/st.png">
+					<Candidate type="Path">
+						<Value>Assets\st.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="stPpng.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/stPpng.png">
+					<Candidate type="Path">
+						<Value>Assets\stPpng.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SW.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/SW.png">
+					<Candidate type="Path">
+						<Value>Assets\SW.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="swB.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/swB.png">
+					<Candidate type="Path">
+						<Value>Assets\swB.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="tB.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/tB.png">
+					<Candidate type="Path">
+						<Value>Assets\tB.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="timer.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/timer.png">
+					<Candidate type="Path">
+						<Value>Assets\timer.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="two.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/two.png">
+					<Candidate type="Path">
+						<Value>Assets\two.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="w.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/w.png">
+					<Candidate type="Path">
+						<Value>Assets\w.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wake.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/wake.png">
+					<Candidate type="Path">
+						<Value>Assets\wake.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wolv.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/wolv.png">
+					<Candidate type="Path">
+						<Value>Assets\wolv.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wolvW.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/wolvW.png">
+					<Candidate type="Path">
+						<Value>Assets\wolvW.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="woman.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/woman.png">
+					<Candidate type="Path">
+						<Value>Assets\woman.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="workout.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/workout.png">
+					<Candidate type="Path">
+						<Value>Assets\workout.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="workoutPage.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/workoutPage.png">
+					<Candidate type="Path">
+						<Value>Assets\workoutPage.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WU.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/WU.png">
+					<Candidate type="Path">
+						<Value>Assets\WU.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WW.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/WW.png">
+					<Candidate type="Path">
+						<Value>Assets\WW.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="about">
+					<NamedResource name="Assembly 5-1.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/about/Assembly%205-1.png">
+						<Candidate type="Path">
+							<Value>Assets\about\Assembly 5-1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FBL.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/about/FBL.png">
+						<Candidate type="Path">
+							<Value>Assets\about\FBL.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Logo Icon 1.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/about/Logo%20Icon%201.png">
+						<Candidate type="Path">
+							<Value>Assets\about\Logo Icon 1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Logo Icon2.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/about/Logo%20Icon2.png">
+						<Candidate type="Path">
+							<Value>Assets\about\Logo Icon2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TL.png" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/about/TL.png">
+						<Candidate type="Path">
+							<Value>Assets\about\TL.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Fonts">
+					<NamedResource name="ci.ttf" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/Fonts/ci.ttf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\ci.ttf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Gabriola.ttf" uri="ms-resource://47309GasserMontaser.Puls/Files/Assets/Fonts/Gabriola.ttf">
+						<Candidate type="Path">
+							<Value>Assets\Fonts\Gabriola.ttf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

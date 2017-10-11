@@ -1,0 +1,4 @@
+MainPackage=W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Release\Pulse.Windows_1.1.0.7_Bundle\Pulse.Windows_1.1.0.7_AnyCPU.appx
+SymbolPackage=W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\AppPackages\Pulse.Windows_1.1.0.7_Test\Pulse.Windows_1.1.0.7_AnyCPU.appxsym
+ResourcePack=W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Release\Pulse.Windows_1.1.0.7_Bundle\Pulse.Windows_1.1.0.7_scale-140.appx
+ResourcePack=W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Release\Pulse.Windows_1.1.0.7_Bundle\Pulse.Windows_1.1.0.7_scale-180.appx

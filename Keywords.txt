@@ -1,0 +1,7 @@
+pulse
+health
+fit
+stopwwatch
+timer
+injury
+workout

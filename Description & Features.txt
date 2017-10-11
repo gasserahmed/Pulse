@@ -1,0 +1,14 @@
+Description
+------------
+'Pulse' is an application that helps in keeping your body healthy and fit by providing people with different types of workouts and exercises.
+It also provides people with symptoms of common sports injuries and methods to treat them.
+Finally, stopwatch and countdown timer are included in this application with awesome features.
+  
+
+Features
+---------
+-Various workouts and exercises
+-Common sports injuries and their treatments
+-Stopwatch
+-Countdown timer
+-Elegant UI

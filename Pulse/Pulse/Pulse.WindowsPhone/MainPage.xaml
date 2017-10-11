@@ -1,0 +1,86 @@
+﻿<Page
+    x:Class="Pulse.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Pulse"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush ImageSource="Assets/3.png"/>
+    </Page.Background>
+    <Page.BottomAppBar>
+        <CommandBar Background="#007AD5">
+            <AppBarButton Label="about"
+                          Click="AppBarButton_Click">
+                <AppBarButton.Icon>
+                    <FontIcon Glyph="i"
+                              FontSize="30"
+                              FontFamily="Segoe WP Black" />
+                </AppBarButton.Icon>
+            </AppBarButton>
+            
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Viewbox Canvas.ZIndex="999" VerticalAlignment="Bottom" HorizontalAlignment="Center" Stretch="Uniform" >
+            <Grid Height="220" Width="850" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="0.05*"/>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="0.05*"/>
+                    <ColumnDefinition Width="1.5*"/>
+                    <ColumnDefinition Width="0.05*"/>
+                    <ColumnDefinition Width="1.5*"/>
+                </Grid.ColumnDefinitions>
+                <GridView  Tapped="Injuries" ScrollViewer.VerticalScrollMode="Disabled"    Grid.Row="0" Grid.Column="2"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None"  >
+                    <Grid Width="190" Height="250">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Image Source="/Assets/inj.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"  />
+                        <TextBlock Foreground="#005693" Grid.Row="1" FontSize="32" TextAlignment="Center" TextWrapping="Wrap" FontWeight="ExtraLight" Text="Injuries" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                    </Grid>
+                </GridView>
+                <GridView Tapped="StopWatch" ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="4"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                    <Grid Width="190" Height="250">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Image Source="/Assets/sw.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"  />
+                        <TextBlock Foreground="#005693" Grid.Row="1" FontSize="32" TextAlignment="Center" TextWrapping="Wrap" FontWeight="ExtraLight"  Text="Stopwatch" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                    </Grid>
+                </GridView>
+                <GridView  Tapped="Timer" ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="6"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                    <Grid Width="190" Height="250">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Image  Source="/Assets/timer.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                        <TextBlock Foreground="#005693" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="Timer" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                    </Grid>
+                </GridView>
+                <GridView  Tapped="Workout" ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="0"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                    <Grid Width="190" Height="250">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Image  Source="/Assets/w.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                        <TextBlock Foreground="#005693" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="Workouts" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                    </Grid>
+                </GridView>
+
+
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Page>

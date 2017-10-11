@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GASSER</Machine>
+    <WindowsUser>Gasser</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>47309GasserMontaser.Puls</PackageIdentityName>
+    <IntermediateOutputPath>W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>24158C6B59F7A349D69B5F66B5889C8A217047295EF6FF42C0166C05DE34C165</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>47309GasserMontaser.Puls_1.1.0.6_neutral__884zvdbemjk66</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>47309GasserMontaser.Puls_884zvdbemjk66!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>47309GasserMontaser.Puls</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=D0358DB2-991F-4BCB-AEF6-7C0495E84F3D</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.6</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-14T21:55:48.871</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\Pulse.Windows.exe">
+      <PackagePath>Pulse.Windows.exe</PackagePath>
+      <Modified>2015-04-14T21:58:57.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\11.png">
+      <PackagePath>Assets\11.png</PackagePath>
+      <Modified>2015-04-10T19:06:16.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\2min.png">
+      <PackagePath>Assets\2min.png</PackagePath>
+      <Modified>2015-04-10T18:55:43.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\300.png">
+      <PackagePath>Assets\300.png</PackagePath>
+      <Modified>2015-04-10T13:31:10.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\300W.png">
+      <PackagePath>Assets\300W.png</PackagePath>
+      <Modified>2015-04-13T01:33:33.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\ankle.png">
+      <PackagePath>Assets\ankle.png</PackagePath>
+      <Modified>2015-04-09T17:52:32.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Assembly logo\About background.png">
+      <PackagePath>Assets\Assembly logo\About background.png</PackagePath>
+      <Modified>2014-10-10T01:28:33.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Assembly logo\Assembly 5-1.png">
+      <PackagePath>Assets\Assembly logo\Assembly 5-1.png</PackagePath>
+      <Modified>2014-10-10T01:18:43.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Assembly logo\Blue.png">
+      <PackagePath>Assets\Assembly logo\Blue.png</PackagePath>
+      <Modified>2014-10-10T01:18:43.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Assembly logo\FBL.png">
+      <PackagePath>Assets\Assembly logo\FBL.png</PackagePath>
+      <Modified>2014-10-13T02:44:35.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Assembly logo\Logo Icon 1.png">
+      <PackagePath>Assets\Assembly logo\Logo Icon 1.png</PackagePath>
+      <Modified>2014-10-10T01:18:43.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Assembly logo\Logo Icon.png">
+      <PackagePath>Assets\Assembly logo\Logo Icon.png</PackagePath>
+      <Modified>2014-10-10T01:18:43.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Assembly logo\Logo Icon2.png">
+      <PackagePath>Assets\Assembly logo\Logo Icon2.png</PackagePath>
+      <Modified>2014-10-10T01:18:43.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Assembly logo\TL.png">
+      <PackagePath>Assets\Assembly logo\TL.png</PackagePath>
+      <Modified>2014-10-13T02:42:14.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\border.png">
+      <PackagePath>Assets\border.png</PackagePath>
+      <Modified>2015-04-12T13:35:14.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\elbow.png">
+      <PackagePath>Assets\elbow.png</PackagePath>
+      <Modified>2015-04-09T17:33:35.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\one.png">
+      <PackagePath>Assets\one.png</PackagePath>
+      <Modified>2015-04-10T13:24:48.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\pulse.png">
+      <PackagePath>Assets\pulse.png</PackagePath>
+      <Modified>2015-04-12T13:14:52.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\pulse2.png">
+      <PackagePath>Assets\pulse2.png</PackagePath>
+      <Modified>2015-04-12T14:03:25.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\two.png">
+      <PackagePath>Assets\two.png</PackagePath>
+      <Modified>2015-04-10T13:35:24.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\wake.png">
+      <PackagePath>Assets\wake.png</PackagePath>
+      <Modified>2015-04-10T13:37:26.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\wolv.png">
+      <PackagePath>Assets\wolv.png</PackagePath>
+      <Modified>2015-04-10T13:49:57.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\wolvW.png">
+      <PackagePath>Assets\wolvW.png</PackagePath>
+      <Modified>2015-04-13T01:43:54.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\woman.png">
+      <PackagePath>Assets\woman.png</PackagePath>
+      <Modified>2015-04-10T13:42:08.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\workout.png">
+      <PackagePath>Assets\workout.png</PackagePath>
+      <Modified>2015-04-09T19:15:06.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\workoutPage.png">
+      <PackagePath>Assets\workoutPage.png</PackagePath>
+      <Modified>2015-04-10T14:01:16.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\WU.png">
+      <PackagePath>Assets\WU.png</PackagePath>
+      <Modified>2015-04-10T19:08:09.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\WW.png">
+      <PackagePath>Assets\WW.png</PackagePath>
+      <Modified>2015-04-13T01:39:54.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\3.png">
+      <PackagePath>Assets\3.png</PackagePath>
+      <Modified>2015-04-08T21:02:52.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\ham.png">
+      <PackagePath>Assets\ham.png</PackagePath>
+      <Modified>2015-04-09T02:12:55.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\inj.png">
+      <PackagePath>Assets\inj.png</PackagePath>
+      <Modified>2015-04-08T15:58:41.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\injuries.png">
+      <PackagePath>Assets\injuries.png</PackagePath>
+      <Modified>2015-04-09T01:59:39.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\injury.png">
+      <PackagePath>Assets\injury.png</PackagePath>
+      <Modified>2015-04-12T12:35:43.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\knee.png">
+      <PackagePath>Assets\knee.png</PackagePath>
+      <Modified>2015-04-09T17:41:14.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\knee2.png">
+      <PackagePath>Assets\knee2.png</PackagePath>
+      <Modified>2015-04-09T17:39:54.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\lap.png">
+      <PackagePath>Assets\lap.png</PackagePath>
+      <Modified>2015-04-08T22:00:32.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T21:06:48.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\p.png">
+      <PackagePath>Assets\p.png</PackagePath>
+      <Modified>2015-04-09T00:57:12.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\r.png">
+      <PackagePath>Assets\r.png</PackagePath>
+      <Modified>2015-04-08T22:09:08.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\shin.png">
+      <PackagePath>Assets\shin.png</PackagePath>
+      <Modified>2015-04-09T17:28:25.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T21:11:04.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\sp.png">
+      <PackagePath>Assets\sp.png</PackagePath>
+      <Modified>2015-04-09T00:56:47.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T13:41:23.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\spP.png">
+      <PackagePath>Assets\spP.png</PackagePath>
+      <Modified>2015-04-09T00:56:32.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T21:10:29.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T21:04:44.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\st.png">
+      <PackagePath>Assets\st.png</PackagePath>
+      <Modified>2015-04-08T19:29:56.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T21:11:26.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T21:11:38.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T21:11:48.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\stPpng.png">
+      <PackagePath>Assets\stPpng.png</PackagePath>
+      <Modified>2015-04-09T00:54:57.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\SW.png">
+      <PackagePath>Assets\SW.png</PackagePath>
+      <Modified>2015-04-13T02:14:35.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\swB.png">
+      <PackagePath>Assets\swB.png</PackagePath>
+      <Modified>2015-04-08T18:51:25.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\tB.png">
+      <PackagePath>Assets\tB.png</PackagePath>
+      <Modified>2015-04-08T21:21:20.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\timer.png">
+      <PackagePath>Assets\timer.png</PackagePath>
+      <Modified>2015-04-08T15:58:37.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\w.png">
+      <PackagePath>Assets\w.png</PackagePath>
+      <Modified>2015-04-08T18:23:58.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-06T21:09:29.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Fonts\ci.ttf">
+      <PackagePath>Assets\Fonts\ci.ttf</PackagePath>
+      <Modified>2015-04-08T20:26:26.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\Fonts\Gabriola.ttf">
+      <PackagePath>Assets\Fonts\Gabriola.ttf</PackagePath>
+      <Modified>2015-03-02T23:55:36.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\Assets\alarm.mp3">
+      <PackagePath>Assets\alarm.mp3</PackagePath>
+      <Modified>2015-04-08T12:37:22.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-08T17:51:52.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\About.xbf">
+      <PackagePath>About.xbf</PackagePath>
+      <Modified>2015-04-13T20:01:58.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\Injuries.xbf">
+      <PackagePath>Injuries.xbf</PackagePath>
+      <Modified>2015-04-09T18:57:52.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\Injury.xbf">
+      <PackagePath>Injury.xbf</PackagePath>
+      <Modified>2015-04-14T21:58:57.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-08T20:04:51.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\StopWatch.xbf">
+      <PackagePath>StopWatch.xbf</PackagePath>
+      <Modified>2015-04-09T02:29:15.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\Timer.xbf">
+      <PackagePath>Timer.xbf</PackagePath>
+      <Modified>2015-04-13T01:25:02.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\Workout.xbf">
+      <PackagePath>Workout.xbf</PackagePath>
+      <Modified>2015-04-10T14:24:32.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\WorkoutPage.xbf">
+      <PackagePath>WorkoutPage.xbf</PackagePath>
+      <Modified>2015-04-14T21:56:23.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\Pulse.Windows.xr.xml">
+      <PackagePath>Pulse.Windows.xr.xml</PackagePath>
+      <Modified>2015-04-12T14:18:11.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="W:\Microsoft\Applictaions\Pulse\Pulse\Pulse\Pulse.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-14T21:55:48.815</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

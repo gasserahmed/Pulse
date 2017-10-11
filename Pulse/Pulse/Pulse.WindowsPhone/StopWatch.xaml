@@ -1,0 +1,114 @@
+﻿<Page
+    x:Class="Pulse.StopWatch"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Pulse"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+    <Page.Background>
+        <ImageBrush ImageSource="Assets/swB.png" />
+    </Page.Background>
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="Pulse" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Stopwatch" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <Viewbox Grid.Row="1" VerticalAlignment="Center" Stretch="Uniform" >
+                <Grid Width="140">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0"  x:Name="timeText" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="/Assets/Fonts/ci.ttf#Capture it" Foreground="#003d6a"  FontSize="30" Text="{Binding}" DataContext="00:00:00"/>
+                    <TextBlock x:Name="tb1" Grid.Column="4" Grid.Row="1"  FontFamily="/Assets/Fonts/ci.ttf#Capture it" TextWrapping="Wrap" TextAlignment="Center" FontSize="10" Foreground="#326387"  HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                    <TextBlock x:Name="tb2" Grid.Column="4" Grid.Row="2" FontFamily="/Assets/Fonts/ci.ttf#Capture it" TextWrapping="Wrap" TextAlignment="Center" FontSize="10" Foreground="#326387"  HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                    <TextBlock x:Name="tb3" Grid.Column="4" Grid.Row="3"  FontFamily="/Assets/Fonts/ci.ttf#Capture it" TextWrapping="Wrap" TextAlignment="Center" FontSize="10" Foreground="#326387"  HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                    <TextBlock x:Name="tb4" Grid.Column="4" Grid.Row="4" FontFamily="/Assets/Fonts/ci.ttf#Capture it" TextWrapping="Wrap" TextAlignment="Center" FontSize="10" Foreground="#326387"  HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                    <TextBlock x:Name="tb5" Grid.Column="4" Grid.Row="5"  FontFamily="/Assets/Fonts/ci.ttf#Capture it" TextWrapping="Wrap" TextAlignment="Center" FontSize="10" Foreground="#326387"  HorizontalAlignment="Center" VerticalAlignment="Center"  />
+                </Grid>
+            </Viewbox>
+            <Viewbox Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Stretch="Uniform" >
+                <Grid Height="200" Width="650" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="0.05*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="0.05*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <GridView x:Name="startBtn" Tapped="start" ScrollViewer.VerticalScrollMode="Disabled"  HorizontalAlignment="Center" Grid.Row="0"  Grid.Column="2"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="190" Height="200">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image  Source="/Assets/st.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                            <TextBlock x:Name="stText" Foreground="#005693" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="Start" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </GridView>
+                    <GridView Name="stopBtn" Visibility="Collapsed" Tapped="stop" ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="2"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="190" Height="200">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image  Source="/Assets/sp.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                            <TextBlock Foreground="#005693" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="Stop" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </GridView>
+                    <GridView Name="resetBtn" Tapped="reset" ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="4" IsEnabled="False" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="190" Height="200">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image  Source="/Assets/r.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                            <TextBlock Foreground="#005693" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="Reset" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </GridView>
+                    <GridView Name="lapBtn" Tapped="lap" ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="0" IsEnabled="False" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="190" Height="200">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image  Source="/Assets/lap.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                            <TextBlock Foreground="#005693" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="Lap" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </GridView>
+                </Grid>
+            </Viewbox>
+        </Grid>
+    </Grid>
+</Page>

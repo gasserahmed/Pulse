@@ -1,0 +1,116 @@
+﻿<Page
+    x:Class="Pulse.Workout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Pulse"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush ImageSource="Assets/workout.png" />
+    </Page.Background>
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="Pulse" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Workouts" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <Viewbox  Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Stretch="Uniform" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="0.05*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="0.3*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="0.3*"/>
+                        <ColumnDefinition Width="*"/>
+                     </Grid.ColumnDefinitions>
+                    <GridView x:ConnectionId='1'              ScrollViewer.VerticalScrollMode="Disabled"    Grid.Row="2" Grid.Column="14"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None" Grid.ColumnSpan="27" >
+                        <Grid Width="210" Height="270">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image Source="/Assets/one.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Margin="0,-5,0,5"  />
+                            <TextBlock Foreground="#539AAD" Grid.Row="1" FontSize="32" TextAlignment="Center" TextWrapping="Wrap" FontWeight="ExtraLight" Text="1 and 1" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </GridView>
+                    <GridView x:ConnectionId='2'                 ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="2"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="210" Height="270">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image Source="/Assets/wake.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Margin="0,0,0,60" Grid.RowSpan="2"  />
+                            <TextBlock Foreground="#539AAD" Grid.Row="1" FontSize="32" TextAlignment="Center" TextWrapping="Wrap" FontWeight="ExtraLight"  Text="Wake Up" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </GridView>
+                    <GridView x:ConnectionId='3'                    ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="2"   Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="210" Height="270">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image Source="/Assets/wolv.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" />
+                            <TextBlock Foreground="#539AAD" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" TextAlignment="Center" Text="Wolverine" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="39,5,37,0"/>
+                        </Grid>
+                    </GridView>
+
+
+                    <GridView x:ConnectionId='4'                 ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="4"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="210" Height="270">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image  Source="/Assets/woman.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                            <TextBlock Foreground="#539AAD" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="Wonder Woman" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </GridView>
+                    <GridView x:ConnectionId='5'                  ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="2"  Grid.Column="0"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="210" Height="270">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image  Source="/Assets/two.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                            <TextBlock Foreground="#539AAD" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="2 Minute" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5,0,5,-33" Grid.Row="1"/>
+                        </Grid>
+                    </GridView>
+                    <GridView x:ConnectionId='6'                 ScrollViewer.VerticalScrollMode="Disabled"  Grid.Row="0"  Grid.Column="0"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionMode="None">
+                        <Grid Width="210" Height="270">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Image  Source="/Assets/300.png"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False"/>
+                            <TextBlock Foreground="#539AAD" Grid.Row="1" FontSize="32" TextWrapping="Wrap" FontWeight="ExtraLight" Text="300" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </GridView>
+                </Grid>
+            </Viewbox>
+
+        </Grid>
+    </Grid>
+</Page>
+
